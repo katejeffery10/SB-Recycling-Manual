@@ -1,0 +1,165 @@
+.textWithBlurredBg{
+    width:250px;
+    height:auto;
+    display:inline-block;
+    position:relative;
+    transition:.3s;
+    margin:4px;
+  }
+  
+  .textWithBlurredBg img{
+    width:200px;
+    height:250px;
+    transition:.3s;
+    border-radius:4px;
+  }
+  
+  .textWithBlurredBg:hover img{
+    filter:blur(2px) brightness(60%);
+    box-shadow:0 0 16px lime;
+  }
+   
+  .textWithBlurredBg :not(img){
+    position:absolute;
+    z-index:1;
+    top:30%;
+    width:100%;
+    text-align:center;
+    color:#fff;
+    opacity:0;
+    transition:.3s;
+  }
+  
+  .textWithBlurredBg h3{
+    top:50%
+  }
+  
+  .textWithBlurredBg:hover :not(img){
+    opacity:1;
+  }
+
+.textWithBlurredBgd{
+    width:300px;
+    height:auto;
+    display:inline-block;
+    position:relative;
+    transition:.3s;
+    margin:4px;
+  }
+  
+  .textWithBlurredBgd img{
+    width:200px;
+    height:250px;
+    transition:.3s;
+    border-radius:4px;
+  }
+  
+  .textWithBlurredBgd:hover img{
+    filter:blur(2px) brightness(60%);
+    box-shadow:0 0 16px red;
+  }
+   
+  .textWithBlurredBgd :not(img){
+    position:absolute;
+    z-index:1;
+    top:30%;
+    width:100%;
+    text-align:center;
+    color:#fff;
+    opacity:0;
+    transition:.3s;
+  }
+  
+  .textWithBlurredBgd h3{
+    top:50%
+  }
+  
+  .textWithBlurredBgd:hover :not(img){
+    opacity:1;
+  } 
+
+/* non-normal recyclables */
+
+.textWithBlurredBgrd{
+    display:inline-block;
+    position:relative;
+    top:30%;
+    transition:.3s;
+    margin:4px;
+  }
+  
+  .textWithBlurredBgrd img{
+    width:200px;
+    height:250px;
+    transition:.3s;
+    border-radius:4px;
+  }
+  
+  .textWithBlurredBgrd:hover img{
+    filter:blur(2px) brightness(60%);
+    box-shadow:0 0 16px yellow;
+  }
+   
+  .textWithBlurredBgrd :not(img){
+    position:absolute;
+    z-index:1;
+    top:30%;
+    width:100%;
+    text-align:center;
+    color:#fff;
+    opacity:0;
+    transition:.3s;
+  }
+  
+  .textWithBlurredBgrd h4{
+    top:30%
+  }
+.textWithBlurredBgrd h2{
+    top:10%
+}
+  .textWithBlurredBgrd:hover :not(img){
+    opacity:1;
+  }
+  
+  /* non-normal recyclables */
+
+.textWithBlurredBgrdL{
+    display:inline-block;
+    position:relative;
+    top:15%;
+    transition:.3s;
+    margin:4px;
+  }
+  
+  .textWithBlurredBgrdL img{
+    width:200px;
+    height:250px;
+    transition:.3s;
+    border-radius:4px;
+  }
+  
+  .textWithBlurredBgrdL:hover img{
+    filter:blur(2px) brightness(60%);
+    box-shadow:0 0 16px yellow;
+  }
+   
+  .textWithBlurredBgrdL :not(img){
+    position:absolute;
+    z-index:1;
+    top:30%;
+    width:100%;
+    text-align:center;
+    color:#fff;
+    opacity:0;
+    transition:.3s;
+  }
+  
+  .textWithBlurredBgrdL h4{
+    top:15%
+  }
+.textWithBlurredBgrdL h3{
+    top:3%
+}
+  .textWithBlurredBgrdL:hover :not(img){
+    opacity:1;
+  }
